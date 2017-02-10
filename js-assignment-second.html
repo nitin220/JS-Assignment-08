@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>js-assignment-second</title>
+  <link rel="stylesheet" type="text/css" href="styling-2.css">
+</head>
+<body>
+  <header>
+  <strong class="time">Current Time: <strong id="clock"></strong></strong>
+  <a href="http://www.knoldus.com/about/ctoinsights.knol" target="_blank">About knoldus</a>
+  <a href="http://www.w3schools.com/js/default.asp" target="_blank">Learn JS From w3School</a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">Learn JS From MDN</a>
+  <a style="float:right;"href="js-assignment-main.html">Sign Out</a>
+</header>
+<div class="mainDiv">
+  <input type="number" class="text" id="addElement" placeholder="Only numerical values Please">
+  <input type="button" class="button-1" value="Add Element" onclick="addElement()">
+  <input type="text" class="text" id="getElement" placeholder="Only numerical values Please">
+  <input type="button" class="button-1" value="Get Element" onclick="getElement()">
+  <textarea rows="5" cols="50" id="result" placeholder="Result"></textarea>
+  <div class="innerDiv">
+  <button class="button-2" onclick="sortElements()">Get Sorted Array</button>
+  <button class="button-2" onclick="getAll()">Get all Elements</button>
+  <button class="button-3" onclick="clearAll()">Clear All</button>
+</div>
+</div>
+<footer>
+  <script src=jsFile-2.js></script>
+</footer>
+</body>
+</html>

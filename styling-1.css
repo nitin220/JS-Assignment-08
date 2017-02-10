@@ -1,0 +1,88 @@
+body{
+  background-color: rgb(4, 83, 97);
+}
+
+.time{
+  font-size: 100%;
+  color: white;
+  position: static;
+}
+
+.simple{
+    font-size: 300%;
+    color: rgb(55, 183, 231);
+    font-family: sans-serif;
+    display: block;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+  .page{
+    font-size: 300%;
+    color: white;
+    font-family: sans-serif;
+    display: block;
+    margin-left: 20px;
+
+  }
+  
+  .innerleftdiv{
+    float: left;
+    margin-right: 30px;
+  }
+  .innerrightdiv{
+    float: right;
+    margin-right: 30px;
+  }
+
+  .forHtml{
+    font-size:150%;
+    color: rgb(55, 183, 231);
+    font-family: sans-serif;
+    display: block;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.forp{
+  font-size:150%;
+  color: white;
+  font-family: sans-serif;
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.input{
+  float: right;
+  background-color:rgb(55, 183, 231);
+  padding: 50px 50px;
+  padding-top: 50px;
+  border-radius: 50px;
+}
+
+.button {
+    background-color: rgb(37, 212, 206);
+    border: 3px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 120px;
+	  margin-left:39%;
+    margin-top: 20px;
+}
+.text{
+  border-radius: 120px;
+  padding: 10px 10px;
+}
+
+.option{
+  float: right;
+  background-color:white;
+  padding: 50px 50px;
+  padding-top: 50px;
+
+}
+.inputInner{
+  background-color:white;
+}
